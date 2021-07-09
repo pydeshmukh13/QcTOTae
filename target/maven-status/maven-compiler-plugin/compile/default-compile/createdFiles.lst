@@ -1,0 +1,6 @@
+com\qa\cogmento\base\BasePage.class
+com\qa\cogmento\page\LoginPage.class
+com\qa\cogmento\utilities\ElementUtils.class
+com\qa\cogmento\utilities\Constants.class
+com\qa\cogmento\base\BaseTest.class
+com\qa\cogmento\page\HomePage.class

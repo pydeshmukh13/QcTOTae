@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="QC to TAE automtion regression suite"
+	parallel="tests" thread-count="2">
+
+	<test name="LoginPage Test">
+		<classes>
+			<class name="com.qa.cogmento.tests.LoginPageTest" />
+		</classes>
+	</test>
+
+	<test name="HomePage Test">
+		<classes>
+			<class name="com.qa.cogmento.tests.HomePageTest" />
+		</classes>
+	</test>
+	
+	<test name="ContactPage Test">
+		<classes>
+			<class name="com.qa.cogmento.tests.ContactPageTest" />
+		</classes>
+	</test>
+	
+	
+
+
+</suite>
